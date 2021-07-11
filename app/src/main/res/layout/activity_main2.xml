@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="120dp"
+    tools:context=".ScreenStand">
+    android:background="#A3CF92"
+
+
+
+    <EditText
+        android:id="@+id/today"
+        android:layout_marginTop="60dp"
+        android:hint=" معدل نومك بالساعات يوميا"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        ></EditText>
+
+    <Button
+
+        android:id="@+id/monthe"
+        android:textStyle="bold"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="حساب معدل نومك خلال الشهر"
+        ></Button>
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:id="@+id/year"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="حساب معدل نومك خلال السنة"
+        ></Button>
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:id="@+id/years"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="حساب معدل نومك خلال 60 سنة"
+        ></Button>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lott"
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+
+        app:lottie_rawRes="@raw/clock">
+
+    </com.airbnb.lottie.LottieAnimationView>
+
+
+</LinearLayout>

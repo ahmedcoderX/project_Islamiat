@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="vertical"
+    tools:context=".hidaiaa"
+    android:background="#A3CF92"
+
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+
+
+
+
+
+        >
+
+
+
+
+        <TextView
+            android:backgroundTint="#A5CEED"
+            android:drawableTop="@drawable/moslem"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/shapescreen"
+            android:gravity="center"
+            android:text="@string/hidaia"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+
+
+        <TextView
+
+            android:backgroundTint="#A5CEED"
+            android:drawableTop="@drawable/moslem"
+
+
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textIsSelectable="true"
+
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@drawable/shapescreen"
+            android:text="@string/hidaia1"></TextView>
+
+
+        <TextView
+            android:drawableTop="@drawable/moslem"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:backgroundTint="#A5CEED"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@drawable/shapescreen"
+            android:text="@string/hidaia2"></TextView>
+        <TextView
+            android:drawableTop="@drawable/moslem"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:backgroundTint="#A5CEED"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textIsSelectable="true"
+            android:background="@drawable/shapescreen"
+            android:text="@string/hidaia3"></TextView>
+
+        <TextView
+            android:drawableTop="@drawable/moslem"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textIsSelectable="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:backgroundTint="#A5CEED"
+            android:background="@drawable/shapescreen"
+            android:text="@string/hidaiaa4"></TextView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

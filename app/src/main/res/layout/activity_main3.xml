@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+android:background="#EA6137"
+
+    tools:context=".Main3Activity">
+
+    <ImageView
+
+        android:id="@+id/rassol"
+        android:layout_width="match_parent"
+        android:layout_height="306dp"
+
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/mmmm"></ImageView>
+
+    <Button
+        android:id="@+id/goToscreen"
+        android:layout_width="382dp"
+        android:layout_height="65dp"
+android:background="#3490dc"
+        android:layout_gravity="center"
+
+        android:text="حساب وقت النوم"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+
+        ></Button>
+
+
+    <Button
+        android:id="@+id/مسبحة"
+        android:layout_width="382dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="25dp"
+        android:background="#3490dc"
+        android:text="المسبحة الالكترونية"
+        android:textSize="30dp"
+
+        android:textStyle="bold"
+
+
+        ></Button>
+
+
+
+    <Button
+        android:id="@+id/ادعية"
+        android:layout_width="382dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="2dp"
+android:layout_marginTop="25dp"
+    android:background="#3490dc"
+        android:text="أدعية"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+
+        ></Button>
+
+
+
+
+</LinearLayout>

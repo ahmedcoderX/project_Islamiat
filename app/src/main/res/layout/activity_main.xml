@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A3CF92"
+
+
+    tools:context=".MainActivity">
+
+
+
+
+
+    <ImageView
+      android:id="@+id/islamiattt"
+
+        android:layout_width="279dp"
+        android:layout_height="154dp"
+        android:layout_marginBottom="340dp"
+
+
+        android:src="@drawable/islamiat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/moon"
+        android:layout_width="95dp"
+        android:layout_height="90dp"
+
+        android:layout_marginTop="236dp"
+
+        android:src="@drawable/islam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+
+
+    <ImageView
+        android:id="@+id/tariq"
+        android:layout_width="211dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="324dp"
+        android:src="@drawable/tarik"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"></ImageView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:scrollbars="vertical"
+
+>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+
+    >
+
+    <Button
+        android:id="@+id/هداية"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+android:layout_marginTop="35dp"
+
+        android:background="@drawable/shape1"
+        android:drawableTop="@drawable/duahands"
+android:layout_marginStart="5dp"
+        android:text="دعاء الهداية "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+
+        ></Button>
+
+    <Button
+        android:id="@+id/الرزق"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape1"
+        android:drawableTop="@drawable/duahands"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:text="دعاء الرزق "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+
+        ></Button>
+    <Button
+        android:id="@+id/marid"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape1"
+        android:drawableTop="@drawable/duahands"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:text="دعاء المريض "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+
+        ></Button>
+    <Button
+        android:id="@+id/الميت"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape1"
+        android:drawableTop="@drawable/duahands"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:text="دعاء الميت "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+
+        ></Button>
+    <Button
+        android:id="@+id/التوبة"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape1"
+        android:drawableTop="@drawable/duahands"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:text="دعاء التوبة "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+
+        ></Button>
+    <Button
+        android:id="@+id/المضلوم"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape1"
+        android:drawableTop="@drawable/duahands"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:text="دعاء المظلوم "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+
+        ></Button>
+    <Button
+        android:id="@+id/الكرب"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape1"
+        android:drawableTop="@drawable/duahands"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:text="دعاء الهداية "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+
+        ></Button>
+    <Button
+        android:id="@+id/الوالدين"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape1"
+        android:drawableTop="@drawable/duahands"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:text="دعاء الوالدين "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+
+        ></Button>
+    <Button
+        android:id="@+id/نبوية"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape1"
+        android:drawableTop="@drawable/duahands"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:text="أدعية نبوية"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+
+        ></Button>
+
+    <Button
+        android:id="@+id/مسجد"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape1"
+        android:drawableTop="@drawable/duahands"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:text=" دعاء المساجد"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+
+        ></Button>
+    <Button
+        android:id="@+id/سفر"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape1"
+        android:drawableTop="@drawable/duahands"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:text="دعاء السفر"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+
+        ></Button>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+</ScrollView>
+
+
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="#A3CF92"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+
+        <TextView
+            android:backgroundTint="#A5CEED"
+            android:drawableTop="@drawable/moslem"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/shapescreen"
+            android:gravity="center"
+            android:text="@string/marid"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+
+
+        <TextView
+
+            android:backgroundTint="#A5CEED"
+            android:drawableTop="@drawable/moslem"
+
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textIsSelectable="true"
+
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@drawable/shapescreen"
+            android:text="@string/marid1"></TextView>
+
+
+        <TextView
+            android:backgroundTint="#A5CEED"
+            android:drawableTop="@drawable/moslem"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@drawable/shapescreen"
+            android:text="@string/marid2"></TextView>
+        <TextView
+            android:backgroundTint="#A5CEED"
+            android:drawableTop="@drawable/moslem"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textIsSelectable="true"
+            android:background="@drawable/shapescreen"
+            android:text="@string/marid3"></TextView>
+
+        <TextView
+            android:backgroundTint="#A5CEED"
+            android:drawableTop="@drawable/moslem"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textIsSelectable="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+
+            android:background="@drawable/shapescreen"
+            android:text="@string/marid4"></TextView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

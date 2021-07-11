@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:scrollbars="vertical"
+    android:background="#A3CF92"
+
+
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+
+
+
+
+        >
+
+
+
+        <TextView
+            android:drawableTop="@drawable/moslem"
+            android:backgroundTint="#A5CEED"
+
+       android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/shapescreen"
+            android:gravity="center"
+            android:text="@string/rizk"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+
+
+        <TextView
+            android:drawableTop="@drawable/moslem"
+
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textIsSelectable="true"
+            android:backgroundTint="#A5CEED"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@drawable/shapescreen"
+            android:text="@string/risk1"></TextView>
+
+
+        <TextView
+            android:drawableTop="@drawable/moslem"
+            android:backgroundTint="#A5CEED"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/rizk2"></TextView>
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:backgroundTint="#A5CEED"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textIsSelectable="true"
+            android:background="@drawable/shapescreen"
+            android:text="@string/rizk3"></TextView>
+
+        <TextView
+            android:drawableTop="@drawable/moslem"
+            android:backgroundTint="#A5CEED"
+            android:gravity="center"
+            android:textStyle="bold"
+android:textIsSelectable="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+
+            android:background="@drawable/shapescreen"
+            android:text="@string/riz4"></TextView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

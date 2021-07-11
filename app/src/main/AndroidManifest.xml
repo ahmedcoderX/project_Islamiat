@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.فضول">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".safar"></activity>
+        <activity android:name=".masjed" />
+        <activity android:name=".napoia" />
+        <activity android:name=".waladin" />
+        <activity android:name=".kroup" />
+        <activity android:name=".taopa" />
+        <activity android:name=".madlom" />
+        <activity android:name=".mait" />
+        <activity android:name=".mariid" />
+        <activity android:name=".rizk" />
+        <activity android:name=".hidaiaa" />
+        <activity android:name=".adia" />
+        <activity android:name=".misbaha" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".ScreenStand" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
